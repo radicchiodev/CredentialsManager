@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credentials Manager</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+<div>
+    <form id="form">
+        <small>Master password</small>
+        <div class="input-container">
+            <input type="password" id="password" required>
+            <button type="button" onclick="togglePassword('password')">Show</button>
+        </div>
+
+        <small>Salt</small>
+        <div class="input-container">
+            <input type="password" id="salt" required>
+            <button type="button" onclick="togglePassword('salt')">Show</button>
+        </div>
+        
+        <small>Username</small>
+        <div class="input-container">
+            <input id="name" type="text" readonly></input>
+        </div>
+
+        <small>Email</small>
+        <div class="input-container">
+            <input id="mail" type="text" readonly></input>
+        </div>
+        
+        <div class="input-container">
+            <button type="button" onclick="GenerateMail()">Generate email</button>
+        </div>
+        
+        <div class="input-container">
+            <input id="passwordHashed" type="text" readonly></input>
+            <button type="button" onclick="togglePassword('passwordHashed')">Show</button>
+        </div>
+
+        <div class="size-container">
+            <input type="range" id="size-range" min="12" max="40" value="20">
+            <span>password length: </span><span id="size-display">20</span>
+        </div>
+    </form>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>

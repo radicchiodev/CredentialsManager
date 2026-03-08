@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mail", "Mail.csproj", "{3CE4F298-B348-4AF1-A19B-5BCE3912835F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3746DF06-447B-40D4-B4D1-52D1415445C3}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailManager.Domain", "MailManager.Domain\MailManager.Domain.csproj", "{C970BE16-B9A8-49DC-B48A-CC44E407680F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailManager.Infrastructure", "MailManager.Infrastructure\MailManager.Infrastructure.csproj", "{CBE37FA3-8D43-4F6E-B39A-4C7471819D19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailManager.Application", "MailManager.Application\MailManager.Application.csproj", "{81796C6F-B7B1-4AE7-9410-6BDDB1EBF1E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CE4F298-B348-4AF1-A19B-5BCE3912835F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CE4F298-B348-4AF1-A19B-5BCE3912835F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CE4F298-B348-4AF1-A19B-5BCE3912835F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CE4F298-B348-4AF1-A19B-5BCE3912835F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C970BE16-B9A8-49DC-B48A-CC44E407680F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C970BE16-B9A8-49DC-B48A-CC44E407680F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C970BE16-B9A8-49DC-B48A-CC44E407680F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C970BE16-B9A8-49DC-B48A-CC44E407680F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBE37FA3-8D43-4F6E-B39A-4C7471819D19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBE37FA3-8D43-4F6E-B39A-4C7471819D19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBE37FA3-8D43-4F6E-B39A-4C7471819D19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBE37FA3-8D43-4F6E-B39A-4C7471819D19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81796C6F-B7B1-4AE7-9410-6BDDB1EBF1E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81796C6F-B7B1-4AE7-9410-6BDDB1EBF1E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81796C6F-B7B1-4AE7-9410-6BDDB1EBF1E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81796C6F-B7B1-4AE7-9410-6BDDB1EBF1E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
